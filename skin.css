@@ -102,7 +102,7 @@ li.panel-item .fa-li,
 .side-menu>li.active>a>i,
 .navbar-default .navbar-nav>.active>a,
 .adv-img-full-content p.sub {
-    color: #0082b9;
+    color: #083B38;
 }
 
 header .navbar-nav .dropdown li>a:hover,
@@ -154,7 +154,7 @@ header .navbar-nav>li.active>a i,
 .white.advs-box-blog .tag-row span:after,
 .white.niche-box-post .tag-row span:after,
 .btn-border {
-    color: #0082b9 !important;
+    color: #083B38 !important;
 }
 
 [class*="col-md-"].boxed,
@@ -171,7 +171,7 @@ header .navbar-nav>li.active>a i,
 .open>.dropdown-toggle.btn-default,
 .block-infos p.bd-day,
 .adv-img-half-content .sub-text {
-    background-color: #0082b9 !important;
+    background-color: #083B38 !important;
 }
 
 .timeline>li>.timeline-badge,
@@ -192,12 +192,12 @@ ul.side-menu li.active:before,
 .btn,
 .circle-button .navbar-inner .nav:not(.ms-rounded) li a:before,
 .timeline>li:hover>.timeline-badge {
-    background-color: #0082b9;
+    background-color: #083B38;
 }
 
 .white .btn {
-    background-color: #0082b9 !important;
-    border-color: #0082b9 !important;
+    background-color: #083B38 !important;
+    border-color: #083B38 !important;
 }
 
 div.adv-img-side-content .btn:hover,
@@ -209,13 +209,13 @@ div.adv-img-side-content .btn:hover i,
 .nav.inner.ms-rounded li.active a,
 .datepicker-panel>ul>li.picked,
 .datepicker-panel>ul>li.picked:hover {
-    border-color: #0082b9 !important;
-    color: #0082b9 !important;
+    border-color: #083B38 !important;
+    color: #083B38 !important;
 }
 
 .white .btn:hover,
 .niche-box-post.boxed .block-infos {
-    border-color: #0082b9 !important;
+    border-color: #083B38 !important;
 }
 
 .circle-button,
@@ -223,7 +223,7 @@ div.adv-img-side-content .btn:hover i,
 .btn,
 .social-group i.circle,
 .social-button i.circle {
-    border-color: #0082b9;
+    border-color: #083B38;
 }
 
 .tab-box>.panel,
@@ -231,17 +231,17 @@ div.adv-img-side-content .btn:hover i,
 hr.e,
 .datepicker-top-left,
 .datepicker-top-right {
-    border-top-color: #0082b9 !important;
+    border-top-color: #083B38 !important;
 }
 
 .tab-box.right .panel-box,
 .adv-big,
 .mi-menu li.active {
-    border-right-color: #0082b9 !important;
+    border-right-color: #083B38 !important;
 }
 
 .title-base.text-left p .img-box.adv-img-half-content .caption {
-    border-left-color: #0082b9 !important;
+    border-left-color: #083B38 !important;
 }
 
 .list-items .list-item:hover,
@@ -250,7 +250,7 @@ hr.e,
 .datepicker-top-left:before,
 .datepicker-top-right:before,
 .navbar .nav>li.active {
-    border-bottom-color: #0082b9 !important;
+    border-bottom-color: #083B38 !important;
 }
 
 
@@ -284,12 +284,12 @@ body div .btn.white:hover {
 }
 
 .flex-direction-nav li a {
-    background-color: #0082b9 !important;
+    background-color: #083B38 !important;
 }
 
 @media (max-width: 992px) {
     header.bg-transparent .navbar-default .navbar-nav>li.active>a {
-        color: #0082b9 !important;
+        color: #083B38 !important;
     }
 }
 
@@ -1919,7 +1919,7 @@ div>p.block-quote:last-child {
     border-radius: 15px;
     font-weight: 500;
     padding: 7px 15px;
-    background: #0082b9;
+    background: #083B38;
     color: #fff;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
 }

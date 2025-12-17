@@ -7749,7 +7749,7 @@ html.iex .footer-parallax {
 /* Buttons styling */
 .section-slide .btn {
     color: #ffffff;
-    background: #0082b9;
+    background: #083B38;
     border: none;
 }
 
@@ -7761,7 +7761,7 @@ html.iex .footer-parallax {
 
 .section-slide .btn-border:hover {
     background: #fff;
-    color: #0082b9;
+    color: #083B38;
 }
 
 /* Wrapper */
@@ -7774,7 +7774,7 @@ html.iex .footer-parallax {
     font-size: 23px;
     line-height: 1.2;
     font-weight: 700;
-    background: linear-gradient(90deg, #ffffff, #0082b9, #ffffff);
+    background: linear-gradient(90deg, #ffffff, #0e9b91, #1a8d85);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: -0.5px;
@@ -7852,7 +7852,7 @@ html.iex .footer-parallax {
     margin-bottom: 20px;
     font-weight: 400;
     /* Gradient Text */
-    background: linear-gradient(135deg, #2b2b2b, #0082b9);
+    background: linear-gradient(135deg, #2b2b2b, #083B38);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
@@ -7863,7 +7863,7 @@ html.iex .footer-parallax {
     content: "";
     width: 80px;
     height: 3px;
-    background: linear-gradient(135deg, #0082b9, #000000);
+    background: linear-gradient(135deg, #083B38, #000000);
     display: block;
     border-radius: 10px;
 }
