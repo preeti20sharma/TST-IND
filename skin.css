@@ -383,7 +383,7 @@ footer,
 .advs-box.boxed-inverse,
 .section-two-blocks .form-control,
 .section-bg-image .boxed-inverse {
-    background-color: #FFF;
+    background-color: #052e2b;
 }
 
 footer .tag-row span {
@@ -404,6 +404,14 @@ footer .tag-row span {
 
 footer {
     border-top: 1px solid #eeeeee;
+}
+
+.footer-text {
+    color: #eeeeee !important;
+}
+
+.footer-text li a {
+    color: #eeeeee !important;
 }
 
 .section-border {
@@ -892,9 +900,6 @@ i.onlycover {
     padding-left: 30px;
 }
 
-.btn-group-icons:not(.social-colors) i {
-    color: #484848;
-}
 
 .btn-group-icons a:hover i {
     color: #fff !important;
