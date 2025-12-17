@@ -7937,3 +7937,15 @@ html.iex .footer-parallax {
     display: block;
     border-radius: 10px;
 }
+
+.heading-service {
+    font-size: 22px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    /* Gradient Text */
+    background: linear-gradient(135deg, #B88874, #043a37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
