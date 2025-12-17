@@ -7942,3 +7942,9 @@ html.iex .footer-parallax {
     -webkit-text-fill-color: transparent;
     position: relative;
 }
+
+@media(max-width:768px) {
+    .section-empty img {
+        margin-top: 35px !important;
+    }
+}
