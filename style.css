@@ -7852,7 +7852,7 @@ html.iex .footer-parallax {
     margin-bottom: 20px;
     font-weight: 400;
     /* Gradient Text */
-    background: linear-gradient(135deg, #2b2b2b, #083B38);
+    background: linear-gradient(135deg, #B88874, #083B38);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
@@ -7897,7 +7897,43 @@ html.iex .footer-parallax {
 }
 
 .fa-circle-check {
-    background: #ffffff;
+    background: #033531;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.slider-icons {
+    background: #f8fafc;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services-heading {
+    font-size: 22px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    /* Gradient Text */
+    background: linear-gradient(135deg, #033531, #083B38);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+/* Highlight word */
+.services-heading span {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+/* Decorative underline */
+.services-heading::after {
+    content: "";
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(135deg, #083B38, #000000);
+    display: block;
+    border-radius: 10px;
 }
