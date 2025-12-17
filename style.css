@@ -7962,3 +7962,9 @@ html.iex .footer-parallax {
     line-height: 20px;
     height: 50px;
 }
+
+@media(max-width:768px) {
+    .logo-default {
+        height: 65px;
+    }
+}
