@@ -1,11 +1,11 @@
-
 /*
 ==============================
 COLLAPSE & ACCORDION
 ============================== 
 */
 
-.collapse-box .panel, .accordion-list .panel {
+.collapse-box .panel,
+.accordion-list .panel {
     padding: 0;
     display: none;
     overflow: hidden;
@@ -22,40 +22,43 @@ COLLAPSE & ACCORDION
     text-align: left;
 }
 
-    .accordion-list .list-group-item:last-child {
-        border-bottom: 1px solid #DADADA;
-    }
+.accordion-list .list-group-item:last-child {
+    border-bottom: 1px solid #DADADA;
+}
 
-    .accordion-list .list-group-item > a {
-        padding: 10px 15px;
-        display: block;
-    }
+.accordion-list .list-group-item>a {
+    padding: 10px 15px;
+    display: block;
+}
 
-        .accordion-list .list-group-item > a i {
-            margin-right: 15px;
-            color: #337ab7;
-        }
+.accordion-list .list-group-item>a i {
+    margin-right: 15px;
+    color: #337ab7;
+}
 
-        .accordion-list .list-group-item > a.active, .accordion-list .list-group-item > a.active:hover {
-            border: 1px solid #929292;
-            margin: -1px -1px 0 -1px;
-            font-weight: 600;
-        }
+.accordion-list .list-group-item>a.active,
+.accordion-list .list-group-item>a.active:hover {
+    border: 1px solid #929292;
+    margin: -1px -1px 0 -1px;
+    font-weight: 600;
+}
 
-        .accordion-list .list-group-item > a:hover {
-            color: #555;
-            background-color: #FBFBFB;
-        }
+.accordion-list .list-group-item>a:hover {
+    color: #555;
+    background-color: #FBFBFB;
+}
 
-    .accordion-list .list-group-item > .panel > .inner {
-        padding: 10px 15px;
-    }
+.accordion-list .list-group-item>.panel>.inner {
+    padding: 10px 15px;
+}
+
 /*
 ==============================
 TABS
 ==============================
 */
-.tab-box > .panel, .tab-box > .panel-box > .panel {
+.tab-box>.panel,
+.tab-box>.panel-box>.panel {
     padding: 15px;
     border: 1px solid #DDD;
     border-top-style: none;
@@ -63,7 +66,7 @@ TABS
     border-radius: 0px 0px 4px 4px;
 }
 
-.nav-pills.nav-center > li {
+.nav-pills.nav-center>li {
     margin: 0;
 }
 
@@ -78,11 +81,12 @@ TABS
     border-radius: 0;
 }
 
-.tab-box.left .nav-tabs > li > a:hover, .tab-box.right .nav-tabs > li > a:hover {
+.tab-box.left .nav-tabs>li>a:hover,
+.tab-box.right .nav-tabs>li>a:hover {
     border-bottom: 1px solid #FDFDFD;
 }
 
-.tab-box.right .nav-tabs > li.active > a {
+.tab-box.right .nav-tabs>li.active>a {
     margin-left: 0px;
     border-bottom: none !important;
 }
@@ -119,7 +123,8 @@ TABS
     border-top: 1px solid #DDD;
 }
 
-.tab-box.pills > .panel, .tab-box.pills > .panel-box .panel {
+.tab-box.pills>.panel,
+.tab-box.pills>.panel-box .panel {
     padding: 25px 0 0 0;
     border: none;
 }
@@ -128,11 +133,13 @@ TABS
     display: block;
 }
 
-.tab-box .panel > *:first-child, .tab-box .panel > .row > div > *:first-child {
+.tab-box .panel>*:first-child,
+.tab-box .panel>.row>div>*:first-child {
     margin-top: 0;
 }
 
-.tab-box .panel > *:last-child, .tab-box .panel > .row > div > *:last-child {
+.tab-box .panel>*:last-child,
+.tab-box .panel>.row>div>*:last-child {
     margin-bottom: 0;
 }
 
@@ -140,19 +147,19 @@ TABS
     background-color: #f5f5f5;
 }
 
-.tab-box .panel > .col-md-12:not([class*=boxed]) {
+.tab-box .panel>.col-md-12:not([class*=boxed]) {
     margin-left: -15px;
     margin-right: -15px;
     width: calc(100% + 30px);
 }
 
-.tab-box .panel > [class*=boxed].col-md-12 {
+.tab-box .panel>[class*=boxed].col-md-12 {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
 }
 
-.tab-box .panel > .row > * {
+.tab-box .panel>.row>* {
     padding: 0 15px;
 }
 
@@ -162,7 +169,8 @@ TAB VERTICAL
 ==============================
 */
 
-.tab-box.left .nav-tabs, .tab-box.right .nav-tabs {
+.tab-box.left .nav-tabs,
+.tab-box.right .nav-tabs {
     border-bottom: none;
     padding: 0;
 }
@@ -175,45 +183,47 @@ TAB VERTICAL
     border-left: 1px solid #ddd;
 }
 
-    .tab-box.left .nav-tabs > li, .tab-box.right .nav-tabs > li {
-        float: none;
-        margin-bottom: 0px;
-    }
+.tab-box.left .nav-tabs>li,
+.tab-box.right .nav-tabs>li {
+    float: none;
+    margin-bottom: 0px;
+}
 
-.tab-box.left .nav-tabs > li {
+.tab-box.left .nav-tabs>li {
     margin-right: -1px;
 }
 
-.tab-box.right .nav-tabs > li {
+.tab-box.right .nav-tabs>li {
     margin-left: -1px;
 }
 
-.tab-box.left .nav-tabs > li.active > a,
-.tab-box.left .nav-tabs > li.active > a:hover,
-.tab-box.left .nav-tabs > li.active > a:focus {
+.tab-box.left .nav-tabs>li.active>a,
+.tab-box.left .nav-tabs>li.active>a:hover,
+.tab-box.left .nav-tabs>li.active>a:focus {
     border-bottom-color: #ddd;
     border-right-color: transparent;
 }
 
-.tab-box.right .nav-tabs > li.active > a,
-.tab-box.right .nav-tabs > li.active > a:hover,
-.tab-box.right .nav-tabs > li.active > a:focus {
+.tab-box.right .nav-tabs>li.active>a,
+.tab-box.right .nav-tabs>li.active>a:hover,
+.tab-box.right .nav-tabs>li.active>a:focus {
     border-bottom: 1px solid #ddd;
     border-left-color: transparent;
 }
 
-.tab-box.left .nav-tabs > li > a {
+.tab-box.left .nav-tabs>li>a {
     border-radius: 2px 0 0 2px;
     display: block;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.tab-box.right .nav-tabs > li > a {
+.tab-box.right .nav-tabs>li>a {
     border-radius: 0 2px 2px 0;
 }
 
-.tab-box.left .panel-box, .tab-box.right .panel-box {
+.tab-box.left .panel-box,
+.tab-box.right .panel-box {
     padding: 0;
     overflow: hidden;
 }
@@ -240,7 +250,8 @@ TAB VERTICAL
     border-radius: 4px 0 0 4px;
 }
 
-.tab-box.left .nav-pills li, .tab-box.right .nav-pills li {
+.tab-box.left .nav-pills li,
+.tab-box.right .nav-pills li {
     float: none;
     margin-bottom: 2px;
     display: block;
@@ -251,12 +262,14 @@ TAB VERTICAL
     text-align: center;
 }
 
-.tab-box.left.pills .panel, .tab-box.right.pills .panel {
+.tab-box.left.pills .panel,
+.tab-box.right.pills .panel {
     padding: 0 15px;
     border: none;
 }
 
-.tab-box.left.pills .nav-pills > li + li, .tab-box.right.pills .nav-pills > li + li {
+.tab-box.left.pills .nav-pills>li+li,
+.tab-box.right.pills .nav-pills>li+li {
     margin-left: 0;
 }
 
@@ -270,7 +283,7 @@ TAB VERTICAL
     background: #fbfbfb;
 }
 
-.mega-tabs .tab-box .nav-tabs > li > a {
+.mega-tabs .tab-box .nav-tabs>li>a {
     border: none;
     padding: 15px 30px;
     border-top: none !important;
@@ -281,6 +294,7 @@ TAB VERTICAL
     border: none;
     margin: 0 -10px 10px -10px;
 }
+
 /*
 ==============================
 PROGRESS - COUNTER
@@ -302,44 +316,44 @@ PROGRESS - COUNTER
     text-align: center;
 }
 
-    .progress-circle .inner-circle .counter-circle {
-        font-size: 15px;
-        z-index: 9;
-        position: relative;
-    }
+.progress-circle .inner-circle .counter-circle {
+    font-size: 15px;
+    z-index: 9;
+    position: relative;
+}
 
-    .progress-circle .inner-circle .inner-center {
-        display: table-cell;
-        vertical-align: middle;
-        padding: 0 22%;
-    }
+.progress-circle .inner-circle .inner-center {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 22%;
+}
 
-    .progress-circle .inner-circle i.bg {
-        vertical-align: middle;
-        height: 100%;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        margin: 0;
-        display: table;
-    }
+.progress-circle .inner-circle i.bg {
+    vertical-align: middle;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    display: table;
+}
 
-        .progress-circle .inner-circle i.bg:before {
-            display: table-cell;
-            vertical-align: middle;
-        }
+.progress-circle .inner-circle i.bg:before {
+    display: table-cell;
+    vertical-align: middle;
+}
 
-    .progress-circle .inner-circle div.circle {
-        width: 100px;
-        display: inline-block;
-        height: 100px;
-        text-align: center;
-        padding-top: 39px;
-    }
+.progress-circle .inner-circle div.circle {
+    width: 100px;
+    display: inline-block;
+    height: 100px;
+    text-align: center;
+    padding-top: 39px;
+}
 
-    .progress-circle .inner-circle .main {
-        font-size: 13px;
-    }
+.progress-circle .inner-circle .main {
+    font-size: 13px;
+}
 
 .countdown .countdown-values {
     font-weight: 600;
@@ -350,10 +364,11 @@ PROGRESS - COUNTER
     padding: 0 10px;
 }
 
-.countdown > div {
+.countdown>div {
     display: inline-block;
     text-align: center;
 }
+
 /*
 ==============================
 TIMELINE
@@ -365,177 +380,180 @@ TIMELINE
     position: relative;
 }
 
-    .timeline:before {
-        top: 0;
-        bottom: 0;
-        position: absolute;
-        content: " ";
-        width: 1px;
-        background-color: #CECECE;
-        left: 50%;
-        margin-left: -1.5px;
-    }
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 1px;
+    background-color: #CECECE;
+    left: 50%;
+    margin-left: -1.5px;
+}
 
-    .timeline > li {
-        margin-bottom: 20px;
-        position: relative;
-    }
+.timeline>li {
+    margin-bottom: 20px;
+    position: relative;
+}
 
-        .timeline > li:before,
-        .timeline > li:after {
-            content: " ";
-            display: table;
-        }
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
 
-        .timeline > li:after {
-            clear: both;
-        }
+.timeline>li:after {
+    clear: both;
+}
 
-        .timeline > li:before,
-        .timeline > li:after {
-            content: " ";
-            display: table;
-        }
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
 
-        .timeline > li:after {
-            clear: both;
-        }
+.timeline>li:after {
+    clear: both;
+}
 
-        .timeline > li > .timeline-panel {
-            width: 50%;
-            float: left;
-            border: 1px solid #D2D2D2;
-            background: #FFF;
-            border-radius: 2px;
-            padding: 20px;
-            text-align: left;
-            position: relative;
-        }
+.timeline>li>.timeline-panel {
+    width: 50%;
+    float: left;
+    border: 1px solid #D2D2D2;
+    background: #FFF;
+    border-radius: 2px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
 
-        .timeline > li.timeline-inverted + li:not(.timeline-inverted),
-        .timeline > li:not(.timeline-inverted) + li.timeline-inverted {
-            margin-top: -10px;
-        }
+.timeline>li.timeline-inverted+li:not(.timeline-inverted),
+.timeline>li:not(.timeline-inverted)+li.timeline-inverted {
+    margin-top: -10px;
+}
 
-        .timeline > li:not(.timeline-inverted) {
-            padding-right: 90px;
-        }
+.timeline>li:not(.timeline-inverted) {
+    padding-right: 90px;
+}
 
-        .timeline > li.timeline-inverted {
-            padding-left: 90px;
-        }
+.timeline>li.timeline-inverted {
+    padding-left: 90px;
+}
 
-        .timeline > li > .timeline-panel:before {
-            position: absolute;
-            top: 26px;
-            right: -14px;
-            display: inline-block;
-            border-top: 15px solid transparent;
-            border-left: 15px solid #BDBDBD;
-            border-right: 0 solid #BDBDBD;
-            border-bottom: 15px solid transparent;
-            content: " ";
-        }
+.timeline>li>.timeline-panel:before {
+    position: absolute;
+    top: 26px;
+    right: -14px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #BDBDBD;
+    border-right: 0 solid #BDBDBD;
+    border-bottom: 15px solid transparent;
+    content: " ";
+}
 
-        .timeline > li > .timeline-panel:after {
-            position: absolute;
-            top: 27px;
-            right: -13px;
-            display: inline-block;
-            border-top: 14px solid transparent;
-            border-left: 14px solid #fff;
-            border-right: 0 solid #fff;
-            border-bottom: 14px solid transparent;
-            content: " ";
-        }
+.timeline>li>.timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    right: -13px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
 
-        .timeline > li > .timeline-badge {
-            width: 20px;
-            height: 20px;
-            line-height: 50px;
-            position: absolute;
-            top: 32px;
-            left: 50%;
-            margin-left: -11px;
-            background-color: #D2D2D2;
-            z-index: 9;
-            border-radius: 50%;
-            border: 5px solid #FFFFFF;
-        }
+.timeline>li>.timeline-badge {
+    width: 20px;
+    height: 20px;
+    line-height: 50px;
+    position: absolute;
+    top: 32px;
+    left: 50%;
+    margin-left: -11px;
+    background-color: #D2D2D2;
+    z-index: 9;
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+}
 
-        .timeline > li > .timeline-label h4 {
-            margin: 0px;
-            font-size: 25px;
-        }
+.timeline>li>.timeline-label h4 {
+    margin: 0px;
+    font-size: 22px;
+    background: linear-gradient(135deg, #B88874, #043a37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-        .timeline > li > .timeline-label p {
-            margin: 0;
-            opacity: .8;
-        }
+.timeline>li>.timeline-label p {
+    margin: 0;
+    opacity: .8;
+}
 
-        .timeline > li > .timeline-label {
-            height: 65px;
-            position: absolute;
-            top: 32px;
-            left: 50%;
-            margin: -25px 0 0 25px;
-            padding: 10px 15px;
-            text-align: left;
-            z-index: 9;
-            border-radius: 4px;
-            transition: all linear 0.3s;
-        }
+.timeline>li>.timeline-label {
+    height: 65px;
+    position: absolute;
+    top: 32px;
+    left: 50%;
+    margin: -25px 0 0 25px;
+    padding: 10px 15px;
+    text-align: left;
+    z-index: 9;
+    border-radius: 4px;
+    transition: all linear 0.3s;
+}
 
-        .timeline > li.timeline-inverted > .timeline-label {
-            top: 32px;
-            left: 50%;
-            margin-left: -325px;
-            white-space: nowrap;
-            text-align: right;
-            width: 300px;
-        }
+.timeline>li.timeline-inverted>.timeline-label {
+    top: 32px;
+    left: 50%;
+    margin-left: -325px;
+    white-space: nowrap;
+    text-align: right;
+    width: 300px;
+}
 
-        .timeline > li.timeline-inverted > .timeline-panel {
-            float: right;
-        }
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+}
 
-            .timeline > li.timeline-inverted > .timeline-panel:before {
-                border-left-width: 0;
-                border-right-width: 15px;
-                left: -14px;
-                right: auto;
-            }
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -14px;
+    right: auto;
+}
 
-            .timeline > li.timeline-inverted > .timeline-panel:after {
-                border-left-width: 0;
-                border-right-width: 14px;
-                left: -13px;
-                right: auto;
-            }
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -13px;
+    right: auto;
+}
 
 .timeline-title {
     margin-top: 0;
 }
 
-.timeline-body > p,
-.timeline-body > ul {
+.timeline-body>p,
+.timeline-body>ul {
     margin-bottom: 0;
     text-align: left;
 }
 
-    .timeline-body > p + p {
-        margin-top: 5px;
-    }
+.timeline-body>p+p {
+    margin-top: 5px;
+}
 
-.timeline > li:hover > .timeline-label {
+.timeline>li:hover>.timeline-label {
     transform: translateX(10px);
 }
 
-.timeline > li.timeline-inverted:hover > .timeline-label {
+.timeline>li.timeline-inverted:hover>.timeline-label {
     transform: translateX(-10px);
 }
 
-.timeline > li:hover > .timeline-badge {
+.timeline>li:hover>.timeline-badge {
     border: 3px solid #FFF;
     transition: all .3s;
 }
@@ -552,16 +570,16 @@ MOBILE - PHONE - Extra small devices
 */
 @media (max-width: 992px) {
 
-    .mega-tabs .tab-box .nav-tabs > li > a {
+    .mega-tabs .tab-box .nav-tabs>li>a {
         padding-left: 15px;
     }
 
-    .nav-tabs > li {
+    .nav-tabs>li {
         float: none;
         border: 1px solid #DDD;
     }
 
-    header .nav-tabs > li {
+    header .nav-tabs>li {
         border: none;
     }
 
@@ -569,32 +587,33 @@ MOBILE - PHONE - Extra small devices
         background: none;
     }
 
-    header .mega-tabs .tab-box .nav-tabs > li > a {
+    header .mega-tabs .tab-box .nav-tabs>li>a {
         padding: 15px;
         text-align: left;
     }
 
-    .nav.nav-center > li {
+    .nav.nav-center>li {
         display: block;
         margin: 0;
         border-bottom: none;
     }
 
-    .nav-tabs > li.active {
+    .nav-tabs>li.active {
         border: none;
         top: 0 !important;
         border-radius: 0 !important;
     }
 
-        .nav-tabs > li.active a, .tab-box.inverse .nav-tabs li.active > a {
-            border-radius: 0 0 0 0 !important;
-            border-bottom: 0;
-            border-top-color: #DDDDDD !important;
-        }
+    .nav-tabs>li.active a,
+    .tab-box.inverse .nav-tabs li.active>a {
+        border-radius: 0 0 0 0 !important;
+        border-bottom: 0;
+        border-top-color: #DDDDDD !important;
+    }
 
-        .nav-tabs > li.active > a {
-            background-color: #f5f5f5 !important;
-        }
+    .nav-tabs>li.active>a {
+        background-color: #f5f5f5 !important;
+    }
 
     .nav-tabs li.active:last-child a {
         border: 1px solid #ddd;
@@ -604,25 +623,32 @@ MOBILE - PHONE - Extra small devices
         border: none !important;
     }
 
-    .tab-box.left .nav-tabs > li.active > a, .tab-box.left .nav-tabs > li.active > a:hover, .tab-box.left .nav-tabs > li.active > a:focus,
-    .tab-box.right .nav-tabs > li.active > a, .tab-box.right .nav-tabs > li.active > a:hover, .tab-box.right .nav-tabs > li.active > a:focus {
+    .tab-box.left .nav-tabs>li.active>a,
+    .tab-box.left .nav-tabs>li.active>a:hover,
+    .tab-box.left .nav-tabs>li.active>a:focus,
+    .tab-box.right .nav-tabs>li.active>a,
+    .tab-box.right .nav-tabs>li.active>a:hover,
+    .tab-box.right .nav-tabs>li.active>a:focus {
         border: none;
         border-bottom: none !important;
     }
 
-    .tab-box.left .nav-tabs > li, .tab-box.right .nav-tabs > li {
+    .tab-box.left .nav-tabs>li,
+    .tab-box.right .nav-tabs>li {
         border: none;
         margin: 0;
         border-bottom: 1px solid #ddd;
     }
 
-    .tab-box.left .nav-tabs, .tab-box.right .nav-tabs {
+    .tab-box.left .nav-tabs,
+    .tab-box.right .nav-tabs {
         border: 1px solid #ddd;
         border-bottom: none;
         height: auto !important;
     }
 
-    .tab-box.left:not(.pills) .panel-box .panel, .tab-box.right:not(.pills) .panel-box .panel {
+    .tab-box.left:not(.pills) .panel-box .panel,
+    .tab-box.right:not(.pills) .panel-box .panel {
         border: 1px solid #DDD;
         border-left-style: solid;
         border-radius: 2px;
@@ -632,7 +658,7 @@ MOBILE - PHONE - Extra small devices
         border-top: none !important;
     }
 
-    .tab-box.left .nav-tabs > li:last-child {
+    .tab-box.left .nav-tabs>li:last-child {
         border-bottom: none !important;
     }
 
@@ -650,7 +676,7 @@ MOBILE - PHONE - Extra small devices
         border-bottom-right-radius: 0;
     }
 
-    .nav-tabs.nav-justified > li > a {
+    .nav-tabs.nav-justified>li>a {
         margin-bottom: 0;
     }
 
@@ -667,12 +693,13 @@ MOBILE - PHONE - Extra small devices
         border-bottom: 1px solid #DDD !important;
     }
 
-    .nav-justified-v li > a {
+    .nav-justified-v li>a {
         line-height: inherit !important;
         height: auto !important;
     }
 
-    .tab-box.left.pills .panel, .tab-box.right.pills .panel {
+    .tab-box.left.pills .panel,
+    .tab-box.right.pills .panel {
         padding: 15px;
     }
 
@@ -680,16 +707,16 @@ MOBILE - PHONE - Extra small devices
         height: auto !important;
     }
 
-        .nav-pills > li > a {
-            padding: 8px;
-        }
+    .nav-pills>li>a {
+        padding: 8px;
+    }
 
-    .timeline > li > .timeline-panel {
+    .timeline>li>.timeline-panel {
         width: 100%;
         background: white;
     }
 
-    .timeline > li > .timeline-label {
+    .timeline>li>.timeline-label {
         position: relative;
         height: 100%;
         margin: 45px 0;
@@ -697,7 +724,7 @@ MOBILE - PHONE - Extra small devices
         left: 0;
     }
 
-    .timeline > li.timeline-inverted > .timeline-label {
+    .timeline>li.timeline-inverted>.timeline-label {
         top: 32px;
         left: auto;
         right: 0;
@@ -705,17 +732,17 @@ MOBILE - PHONE - Extra small devices
         width: auto;
     }
 }
+
 /*
 ==============================
 MOBILE - TABLET - Small devices
 ==============================
 */
-@media (min-width: 769px) and (max-width: 992px) {
-}
+@media (min-width: 769px) and (max-width: 992px) {}
+
 /*
 ==============================
 MOBILE - SMALL DESKTOP - Medium devices
 ==============================
 */
-@media (min-width: 992px) and (max-width: 1200px) {
-}
+@media (min-width: 992px) and (max-width: 1200px) {}
