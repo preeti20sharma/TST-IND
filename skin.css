@@ -489,6 +489,13 @@ header.bg-transparent .navbar-default .navbar-nav>li.active {
     height: 500px;
 }
 
+@media(max-width:768px) {
+
+    .home-slider {
+        height: 100vh;
+    }
+}
+
 .img-man {
     position: absolute;
     left: 0;
@@ -1434,9 +1441,10 @@ ul ul .dropdown-toggle:after {
     opacity: .4;
 }
 
+/* 
 .navbar-brand {
     height: 65px;
-}
+} */
 
 header .navbar-default .lan-menu li a {
     font-size: 14px;

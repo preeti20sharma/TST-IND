@@ -1357,6 +1357,7 @@ header.fixed-top.scroll-css .subline-bar {
     background-color: #FFFFFF;
     margin-bottom: 0;
     border: none;
+    height: 76px;
 }
 
 .navbar-mini {
@@ -7781,7 +7782,7 @@ html.iex .footer-parallax {
 }
 
 .hero-title-gradient {
-    font-size: 23px;
+    font-size: 35px;
     line-height: 1.2;
     font-weight: 700;
     background: linear-gradient(90deg, #B98974, #0e9b91, #1a8d85);
@@ -7843,7 +7844,7 @@ html.iex .footer-parallax {
     }
 
     .hero-btn-group-elegant {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
     }
 }
@@ -7960,11 +7961,18 @@ html.iex .footer-parallax {
     padding: 0;
     font-size: 18px;
     line-height: 20px;
-    height: 50px;
+    height: 75px;
 }
 
 @media(max-width:768px) {
     .logo-default {
         height: 65px;
+        padding-left: 8px;
+        padding-top: 5px;
     }
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    background: #ffffff;
 }
