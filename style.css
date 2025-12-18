@@ -7579,7 +7579,7 @@ MOBILE - EXTRA SMALL SCREENS
     }
 
     .grid-table td {
-        width: 50%;
+        width: 100%;
         float: left;
     }
 
@@ -7951,7 +7951,7 @@ html.iex .footer-parallax {
 }
 
 @media(max-width:768px) {
-    .section-empty img {
+    .about-imgs img {
         margin-top: 35px !important;
     }
 }
@@ -8048,5 +8048,13 @@ html.iex .footer-parallax {
     .about-btn {
         display: block;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .timeline-label .timeline-desc {
+        display: none !important;
+        visibility: hidden !important;
+
     }
 }

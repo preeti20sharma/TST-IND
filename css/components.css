@@ -440,6 +440,16 @@ TIMELINE
     padding-left: 90px;
 }
 
+@media(max-width:767px) {
+    .timeline>li:not(.timeline-inverted) {
+        padding-right: 0px;
+    }
+
+    .timeline>li.timeline-inverted {
+        padding-left: 0px;
+    }
+}
+
 .timeline>li>.timeline-panel:before {
     position: absolute;
     top: 26px;
