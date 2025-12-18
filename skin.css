@@ -2708,3 +2708,9 @@ MOBILE - RESPONSIVE
         padding: 15px 0;
     }
 }
+
+.nav>li>a {
+    font-size: 15px;
+    padding: 27px 18px 17px;
+    font-weight: 400;
+}

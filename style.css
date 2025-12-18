@@ -7976,3 +7976,77 @@ html.iex .footer-parallax {
 .navbar-default .navbar-form {
     background: #ffffff;
 }
+
+
+/* Gradient Heading */
+.about-title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.about-title span {
+    background: linear-gradient(135deg, #B88874, #043a37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Paragraph Styling */
+.about-text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Button */
+.about-btn {
+    display: inline-block;
+    padding: 8px 28px;
+    background: linear-gradient(135deg, #B88874, #043a37);
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.about-btn:hover {
+    transform: translateY(-3px);
+    color: #fff;
+}
+
+/* Image Styling */
+.about-img-wrapper {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgb(202, 198, 198);
+    padding: 5px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.about-img-wrapper img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.6s ease;
+}
+
+.about-img-wrapper:hover img {
+    transform: scale(1.08);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-btn {
+        display: block;
+        margin: 0 auto;
+    }
+}
