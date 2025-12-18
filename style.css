@@ -1357,7 +1357,7 @@ header.fixed-top.scroll-css .subline-bar {
     background-color: #FFFFFF;
     margin-bottom: 0;
     border: none;
-    height: 76px;
+    height: 85px;
 }
 
 .navbar-mini {
@@ -7961,7 +7961,7 @@ html.iex .footer-parallax {
     padding: 0;
     font-size: 18px;
     line-height: 20px;
-    height: 75px;
+    height: 80px;
 }
 
 @media(max-width:768px) {
