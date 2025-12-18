@@ -486,15 +486,9 @@ header.bg-transparent .navbar-default .navbar-nav>li.active {
 }
 
 .home-slider {
-    height: 500px;
+    height: 100vh;
 }
 
-@media(max-width:768px) {
-
-    .home-slider {
-        height: 100vh;
-    }
-}
 
 .img-man {
     position: absolute;
